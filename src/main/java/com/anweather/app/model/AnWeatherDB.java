@@ -118,7 +118,7 @@ public class AnWeatherDB {
     /**
      * 将County实例存到数据库
      */
-    public void saveCounties(County county) {
+    public void saveCounty(County county) {
         if (county != null) {
             ContentValues values = new ContentValues();
             values.put("county_name", county.getCountyName());
